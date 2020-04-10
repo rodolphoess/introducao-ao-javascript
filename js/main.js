@@ -4,7 +4,8 @@ var idade = 29;
 
 var primeiroValor = 3;
 var segundoValor = 4.5;
-// alert("Exemplo de soma: 3 + 4.5 = " + (primeiroValor + segundoValor));
+console.log("Exemplo de soma: 3 + 4.5 = " + (primeiroValor + segundoValor));
+console.log("Exemplo de concatenação: 3 + 4.5 = " + primeiroValor + segundoValor);
 
 
 var primeiroValorString = "3";
@@ -45,3 +46,8 @@ console.log(frutas[1]);
 // } else {
 //     console.log("Você é menor de idade!");
 // }
+
+var list = ["Alemanha", "Inglaterra", "Escócia"];
+list.push("Polônia");
+list.pop("Inglaterra");
+console.log(list);
