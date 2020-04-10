@@ -38,3 +38,10 @@ var frutas = [{ nome: "Maçã", cor: "Vermelha" }, { nome: "Uva", cor: "Roxa" }]
 console.log(frutas);
 console.log(frutas[0]);
 console.log(frutas[1]);
+
+// var idade = prompt("Qual a sua idade?"); //Abre uma janela no browser para interação com o usuário.
+// if (idade >= 18) {
+//     console.log("Você é maior de idade!");
+// } else {
+//     console.log("Você é menor de idade!");
+// }
