@@ -7,8 +7,17 @@
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body>
+<body onload="load()">
     <h1>Minha página!</h1>
+    <button type="button" onclick="botao()">Clique aqui!</button>
+    <button type="button" onclick="redirecionarGuiaInvest()">Clique para ser redirecionado</button>
+    <p id="agradecimento"></p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe ou mouse aqui!</p>
+    <select onchange="change(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 
 <footer></footer>

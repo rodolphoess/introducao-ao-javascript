@@ -68,5 +68,33 @@ function validaIdade(idade) {
 
     return validar;
 };
-var idade = prompt("Qual a sua idade?");
+// var idade = prompt("Qual a sua idade?");
+var idade = 18;
 console.log(validaIdade(idade));
+
+function botao() {
+    // alert("Obrigado por clicar!");
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!"; //Permite adicionar um HTML no elemento indicado pelo ID.
+};
+
+function redirecionarGuiaInvest() {
+    window.open("https://www.guiainvest.com.br/login/");
+};
+
+function trocar(elemento) {
+    // document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse. :)";
+};
+
+function voltar(elemento) {
+    // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!";
+    elemento.innerHTML = "Passe o mouse aqui!";
+};
+
+function load() {
+    alert("Bem vindo! :)");
+};
+
+function change(elemento) {
+    console.log(elemento.value);
+};
